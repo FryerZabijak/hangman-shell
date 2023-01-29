@@ -1,4 +1,4 @@
-#Obesenec
+# Obesenec
 
 Tento skript představuje hru "Oběšenec" v bashi. Hra načte slova ze souboru slova.txt a vybere náhodné slovo, které se hráč snaží uhádnout. Hráč má 6 životů a pokud neuhádne slovo do té doby, prohrál.
 
