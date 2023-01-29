@@ -4,8 +4,8 @@ Tento skript představuje hru "Oběšenec" v bashi. Hra načte slova ze souboru 
 
 ## Instalace
 
-    Stáhněte si skript a soubor se slovy.
-    Spusťte skript pomocí příkazu bash obesenec.sh
+1. Stáhněte si skript a soubor se slovy.
+2. Spusťte skript pomocí příkazu bash obesenec.sh
 
 ## Použití
 
@@ -16,5 +16,6 @@ Hráč zadává jedno písmeno a skript zkontroluje, zda se písmeno v daném sl
 
 ## Poznámky
 
-    Skript využívá IFS=$'\n' k nastavení oddělovače řádků pro pole HANGMANPICS, aby se zobrazovaly správně obrázky oběšence.
-    Skript také využívá readonly k označení pole HANGMANPICS jako readonly, aby se zabránilo jeho změně během hry.
+Skript využívá IFS=$'\n' k nastavení oddělovače řádků pro pole HANGMANPICS, aby se zobrazovaly správně obrázky oběšence.
+
+Skript také využívá readonly k označení pole HANGMANPICS jako readonly, aby se zabránilo jeho změně během hry.
