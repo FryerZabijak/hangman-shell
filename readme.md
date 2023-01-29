@@ -1,4 +1,4 @@
-# Obesenec
+# Oběšenec
 
 Tento skript představuje hru "Oběšenec" v bashi. Hra načte slova ze souboru slova.txt a vybere náhodné slovo, které se hráč snaží uhádnout. Hráč má 6 životů a pokud neuhádne slovo do té doby, prohrál.
 
@@ -16,6 +16,6 @@ Hráč zadává jedno písmeno a skript zkontroluje, zda se písmeno v daném sl
 
 ## Poznámky
 
-Skript využívá IFS=$'\n' k nastavení oddělovače řádků pro pole HANGMANPICS, aby se zobrazovaly správně obrázky oběšence.
+Skript využívá `IFS=$'\n'` k nastavení oddělovače řádků pro pole HANGMANPICS, aby se zobrazovaly správně obrázky oběšence.
 
 Skript také využívá readonly k označení pole HANGMANPICS jako readonly, aby se zabránilo jeho změně během hry.
