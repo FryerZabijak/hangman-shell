@@ -1,4 +1,5 @@
 #!/bin/bash
+z=IFS
 IFS=$'\n'
 readonly HANGMANPICS=(
 "
@@ -92,7 +93,7 @@ do
     clear
 
     #Vykreslení oběšence
-    for i in ${HANGMANPICS[${#HANGMANPICS[*]} - zivotu]}
+    for i in ${HANGMANPICS[${#HANGMANPICS[*]} - zivotu -1]}
     do
         echo "$i"
     done
@@ -149,5 +150,5 @@ else
 echo "Byl si oběšen"
 echo "Slovo bylo $final_slovo"
 fi
-
+IFS=$z
 read -r
